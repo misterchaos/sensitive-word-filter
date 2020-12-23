@@ -23,7 +23,7 @@ public class DefaultWordFilter extends WordFilter {
      * Default instance
      * 默认单例
      */
-    private static WordFilter INSTANCE;
+    private static volatile WordFilter INSTANCE;
 
     private DefaultWordFilter() {
 
