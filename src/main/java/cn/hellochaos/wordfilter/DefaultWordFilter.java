@@ -30,7 +30,7 @@ public class DefaultWordFilter extends WordFilter {
     }
 
     /**
-     * Get the default singleton, which uses the sensitive words files <br/>
+     * Get the default singleton, which uses all the sensitive words files <br/>
      * in `./sensitive-word` as the data source by default<br/>
      * 获取默认的单例，默认使用`./sensitive-word`路径下的所有文件里面的敏感词作为数据源
      *
